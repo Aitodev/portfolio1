@@ -1,0 +1,1 @@
+jQuery(function($){$(window).on('load resize',function(){makeSquareImages($('.team-members-wrap.inline .team-member'));});function makeSquareImages($imagesSelector){var $imagesWidth=$imagesSelector.innerWidth();$imagesSelector.each(function(){$(this).innerHeight($imagesWidth);});}});
